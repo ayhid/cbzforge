@@ -1,0 +1,28 @@
+{
+  "name": "manga-downloader",
+  "version": "1.0.0",
+  "description": "Multi-Site Manga Downloader with automatic site configuration generator",
+  "main": "multi-site-downloader.js",
+  "bin": {
+    "manga-dl": "./multi-site-downloader.js",
+    "manga-config": "./site-config-generator.js"
+  },
+  "scripts": {
+    "start": "node multi-site-downloader.js",
+    "config": "node site-config-generator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["manga", "downloader", "cbz", "comics", "scraping", "multi-site"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.11.0",
+    "inquirer": "^12.9.0",
+    "nanospinner": "^1.2.2",
+    "puppeteer": "^24.16.0"
+  }
+}
