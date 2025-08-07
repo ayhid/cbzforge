@@ -30,7 +30,7 @@ A powerful and extensible Node.js application for downloading manga chapters fro
 ### Setup
 ```bash
 # Clone or download the project
-git clone <repository-url> manga-downloader
+git clone https://github.com/ayhid/cbzforge.git manga-downloader
 cd manga-downloader
 
 # Install dependencies
